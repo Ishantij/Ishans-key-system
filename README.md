@@ -14,6 +14,11 @@ If you need help contact me on Discord.
 ```
 Ishanjit#1616
 ```
+## Version History
+
+* 0.1
+    * Initial Release
+
 
 ## License
 ```
