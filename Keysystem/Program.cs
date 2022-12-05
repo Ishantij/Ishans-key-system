@@ -61,6 +61,7 @@ namespace Keysystem
             if (Properties.Settings.Default.keysaved == thisDay.ToString("d"))
             {
                 Console.WriteLine("key already entered");
+                client.Dispose();
             }
             else
             {
