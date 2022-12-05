@@ -8,9 +8,21 @@ change shit and boom it work
 
 ## Help
 
-Follow the intellisense shit lmao
-```
-If you need help contact me on discord
+Follow the intellisense shit lmao.
 
+If you need help contact me on Discord.
+```
 Ishanjit#1616
 ```
+
+## License
+```
+This project is licensed under the MIT License - see the LICENSE.md file for details
+Please credit me in your project!
+```
+
+
+## Acknowledgments
+Inspired by SK8R
+I made this for Voyager lol
+
