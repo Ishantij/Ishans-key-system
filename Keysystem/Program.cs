@@ -85,7 +85,7 @@ namespace Keysystem
                         Console.ForegroundColor = ConsoleColor.Cyan;
                         Properties.Settings.Default.keysaved = thisDay.ToString("d");
                         Properties.Settings.Default.Save(); // Saves settings in application configuration file
-
+                        client.Dispose();
 
                     }
                     else
@@ -93,6 +93,7 @@ namespace Keysystem
                         Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("You Have Failed The KeySytem");
                         Console.ForegroundColor = ConsoleColor.Cyan;
+                        client.Dispose();
                     }
 
 
@@ -115,12 +116,14 @@ namespace Keysystem
                         Console.ForegroundColor = ConsoleColor.Cyan;
                         Properties.Settings.Default.keysaved = thisDay.ToString("d");
                         Properties.Settings.Default.Save(); // Saves settings in application configuration file
+                        client.Dispose();
                     }
                     else
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("You Have Failed The KeySytem");
                         Console.ForegroundColor = ConsoleColor.Cyan;
+                        client.Dispose();
                     }
 
 
@@ -143,12 +146,14 @@ namespace Keysystem
                         Console.ForegroundColor = ConsoleColor.Cyan;
                         Properties.Settings.Default.keysaved = thisDay.ToString("d");
                         Properties.Settings.Default.Save(); // Saves settings in application configuration file
+                        client.Dispose();
                     }
                     else
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("You Have Failed The KeySytem");
                         Console.ForegroundColor = ConsoleColor.Cyan;
+                        client.Dispose();
                     }
                     if (nmbr == 4)
                     {
@@ -168,12 +173,14 @@ namespace Keysystem
                             Console.ForegroundColor = ConsoleColor.Cyan;
                             Properties.Settings.Default["keysaved"] = thisDay.ToString("d");
                             Properties.Settings.Default.Save(); // Saves settings in application configuration file
+                            client.Dispose();
                         }
                         else
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
                             Console.WriteLine("You Have Failed The KeySytem");
                             Console.ForegroundColor = ConsoleColor.Cyan;
+                            client.Dispose();
                         }
 
 
@@ -182,7 +189,7 @@ namespace Keysystem
 
                 }
             }
-
+           
 
 
 
