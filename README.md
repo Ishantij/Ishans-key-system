@@ -4,7 +4,7 @@ Simple to understand key system that works and is not that easily bypassable
 
 ## Description
 
-change shit and boom it work
+To make it work you need to change shit lmao
 
 ## Help
 
@@ -29,5 +29,6 @@ Please credit me in your project!
 
 ## Acknowledgments
 Inspired by SK8R
+
 I made this for Voyager lol
 
