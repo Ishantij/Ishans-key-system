@@ -4,7 +4,7 @@ Simple to understand key system that works and is not that easily bypassable
 
 ## Description
 
-change shit and boom it work
+To make it work you need to change shit lmao
 
 ## Help
 
