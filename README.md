@@ -18,7 +18,8 @@ Ishanjit#1616
 
 * 0.1
     * Initial Release
-
+* 0.2
+    * Made much needed improvements and made the code massively shorter
 
 ## License
 ```
