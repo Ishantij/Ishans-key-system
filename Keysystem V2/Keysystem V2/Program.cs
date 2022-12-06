@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Net;
 using System.Web;
-
+using System.Data.SqlClient;
 
 namespace Keysystem_V2
 {
@@ -38,6 +38,7 @@ namespace Keysystem_V2
             if (Properties.Settings.Default.keysaved == thisDay.ToString("d"))
             {
                 Console.WriteLine("Key Valid");
+                client.Dispose();
                 await Task.Delay(TimeSpan.FromSeconds(5));
                 return;  
             };
@@ -110,13 +111,14 @@ namespace Keysystem_V2
                 Properties.Settings.Default.keysaved = thisDay.ToString("d");
                 Properties.Settings.Default.Save(); // Saves settings in application configuration file
                 await Task.Delay(TimeSpan.FromSeconds(5));
+                client.Dispose();
             }
             else
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Failed, ReOpen Atonix");
                 await Task.Delay(TimeSpan.FromSeconds(5));
-
+                client.Dispose();
 
 
 
