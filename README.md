@@ -20,6 +20,8 @@ Ishanjit#1616
     * Initial Release
 * 2.0 big leap
     * Made much needed improvements and made the code massively shorter
+* 2.1 Quality of Life
+    * Added Auto Restart, Base64 Encryption and HTTPClient
 
 ## License
 ```
