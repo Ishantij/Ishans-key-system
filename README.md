@@ -18,7 +18,7 @@ Ishanjit#1616
 
 * 0.1
     * Initial Release
-* 0.2
+* 2.0 big leap
     * Made much needed improvements and made the code massively shorter
 
 ## License
